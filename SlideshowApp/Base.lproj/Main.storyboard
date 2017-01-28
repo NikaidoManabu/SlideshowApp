@@ -100,10 +100,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="grT-T4-2uf">
-                                <rect key="frame" x="27.5" y="13.5" width="320" height="240"/>
+                                <rect key="frame" x="87.5" y="58.5" width="200" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="320" id="07V-pY-Tpr"/>
-                                    <constraint firstAttribute="height" constant="240" id="X8Z-Y5-5UI"/>
+                                    <constraint firstAttribute="height" constant="150" id="2Hz-ML-TeE"/>
+                                    <constraint firstAttribute="width" constant="200" id="88U-wW-MAy"/>
                                 </constraints>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8sH-BM-pDo">
@@ -120,6 +120,7 @@
                             <constraint firstItem="grT-T4-2uf" firstAttribute="centerX" secondItem="MLR-og-6KV" secondAttribute="centerX" id="gtV-q1-MVi"/>
                             <constraint firstItem="grT-T4-2uf" firstAttribute="centerY" secondItem="MLR-og-6KV" secondAttribute="centerY" constant="-200" id="tPA-r9-sBS"/>
                             <constraint firstItem="8sH-BM-pDo" firstAttribute="centerX" secondItem="MLR-og-6KV" secondAttribute="centerX" id="vd3-c8-zF6"/>
+                            <constraint firstItem="grT-T4-2uf" firstAttribute="centerX" secondItem="MLR-og-6KV" secondAttribute="centerX" id="zpB-Ef-sOa"/>
                         </constraints>
                     </view>
                     <connections>

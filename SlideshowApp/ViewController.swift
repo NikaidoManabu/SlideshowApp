@@ -22,6 +22,11 @@ class ViewController: UIViewController {
     
     
     @IBAction func tapped(_ sender: Any) {
+        timer?.invalidate()
+        buttonNext.isEnabled=true
+        buttonPrev.isEnabled=true
+        buttonStatus="Start"
+        buttonStart.setTitle(buttonStatus, for: .normal)
     }
     
     
